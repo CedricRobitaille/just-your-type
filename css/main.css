@@ -18,15 +18,29 @@ hr {
 }
 
 .opac {
+  transform: translate(-50%, -60%) rotate(-20deg);
   font-family: Notable;
   color: #795F88;
   opacity: .15;
   z-index: 2;
-  transform: translate(-50%, -60%) rotate(-20deg);
-  transition: all 3000ms ease-in;
+  transform: scale(1);
+  animation: wiggle 6000ms ease infinite;
+  transition: all 3000ms ease;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translate(-50%, -60%) rotate(-20deg);
+  }
+  50% {
+    transform: translate(-50%, -60%) rotate(20deg);
+  }
+  100% {
+    transform: translate(-50%, -60%) rotate(-20deg);
+  }
 }
 
 .opac:hover {
-  opacity: .9;
-  transform: translate(-50%, -60%) rotate(20deg);
+  opacity: .95;
+  transform: scale(1.5);
 }

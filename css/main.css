@@ -1,0 +1,46 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  background-color: #A997BA;
+  color: #422352;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+}
+
+span {
+  font-family: Notable;
+  color: #C4BCD3;
+}
+
+hr {
+  border-color: #C4BCD3;
+}
+
+.parent {
+  z-index: 1;
+}
+
+.opac {
+  font-family: Notable;
+  color: #795F88;
+  opacity: .15;
+  z-index: 2;
+  transform: translate(-50%, -60%) rotate(-20deg);
+  transition: all 3000ms ease-in;
+}
+
+.opac:hover {
+  opacity: .9;
+  transform: translate(-50%, -60%) rotate(20deg);
+}

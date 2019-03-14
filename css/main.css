@@ -1,5 +1,5 @@
 html {
-  background-color: #a997bA;
+  background-color: #a997ba;
   color: #422352;
   font-family: "Oleo Script Swash Caps", cursive;
 }
@@ -30,13 +30,13 @@ hr {
 
 @keyframes wiggle {
   0% {
-    transform: translate(-50%, -60%) rotate(-20deg);
+    transform: translate(-50%, -55%) rotate(-20deg);
   }
   50% {
-    transform: translate(-50%, -60%) rotate(20deg);
+    transform: translate(-50%, -55%) rotate(20deg);
   }
   100% {
-    transform: translate(-50%, -60%) rotate(-20deg);
+    transform: translate(-50%, -55%) rotate(-20deg);
   }
 }
 

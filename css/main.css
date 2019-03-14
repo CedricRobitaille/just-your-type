@@ -28,15 +28,19 @@ hr {
 }
 
 @keyframes wiggle {
+
   0% {
     transform: translate(-50%, -55%) rotate(-20deg);
   }
+
   50% {
     transform: translate(-50%, -55%) rotate(20deg);
   }
+
   100% {
     transform: translate(-50%, -55%) rotate(-20deg);
   }
+
 }
 
 .opac:hover {

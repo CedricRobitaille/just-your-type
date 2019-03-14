@@ -23,7 +23,6 @@ hr {
   color: #795f88;
   opacity: .15;
   z-index: 2;
-  transform: scale(1);
   animation: wiggle 6000ms ease infinite;
   transition: all 3000ms ease;
 }
@@ -42,5 +41,4 @@ hr {
 
 .opac:hover {
   opacity: .98;
-  transform: scale(1.5);
 }

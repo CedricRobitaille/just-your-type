@@ -1,16 +1,16 @@
 html {
-  background-color: #A997BA;
+  background-color: #a997bA;
   color: #422352;
   font-family: "Oleo Script Swash Caps", cursive;
 }
 
 span {
   font-family: Notable;
-  color: #C4BCD3;
+  color: #c4bcd3;
 }
 
 hr {
-  border-color: #C4BCD3;
+  border-color: #c4bcd3;
 }
 
 .parent {
@@ -20,7 +20,7 @@ hr {
 .opac {
   transform: translate(-50%, -60%) rotate(-20deg);
   font-family: Notable;
-  color: #795F88;
+  color: #795f88;
   opacity: .15;
   z-index: 2;
   transform: scale(1);
@@ -41,6 +41,6 @@ hr {
 }
 
 .opac:hover {
-  opacity: .95;
+  opacity: .98;
   transform: scale(1.5);
 }
